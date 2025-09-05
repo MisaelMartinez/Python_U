@@ -13,9 +13,9 @@ Precio = 610
 Cantidad_invetario = 4
 Disponible = True
 
-print('Bienvenido a la tienda de Misael y Diana\n')
+print('***Bienvenido a la tienda de Misael y Diana***\n')
 print("Producto:", Producto)
-print("Precio:", Precio)
+print("Precio: $",Precio)
 print("Cantidad en el inventario:", Cantidad_invetario)
 print("Hay disponible?", Disponible)
 
