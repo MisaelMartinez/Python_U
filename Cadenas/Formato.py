@@ -9,15 +9,15 @@ r = f'Hola {var}'
 r = 'Hola {}'.format(var)
 """
 
-nombre = "Giss"
+nombre = "Diana"
 strr = "Hola"
 
 #f.string
-rf = f'Mi amiga me dijo {strr} y me llamo {nombre}'
+rf = f'Mi novia me dijo {strr} y se llama {nombre}'
 print(rf)
 
 #Format
-rm = "Mi amiga me dijo {} y me llamo {}".format(strr,nombre)
+rm = "Mi novia me dijo {} y se llama {}".format(strr,nombre)
 print(rm)
 
 
