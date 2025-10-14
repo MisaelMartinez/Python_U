@@ -3,7 +3,7 @@ Crear un programa para generar un email a partir de los siguientes datos
 
 Nombre     Juan Misael Martinez
 Empresa     Samsung
-Dominio     .com.mx
+dominio     .com.mx
 
 email final
 juan_misael_martinez@samsung.com.mx
