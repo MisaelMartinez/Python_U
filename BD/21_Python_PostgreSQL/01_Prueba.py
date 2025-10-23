@@ -1,3 +1,4 @@
+
 import psycopg2 #modulo para conectar python con postgres
 
 conexion = psycopg2.connect(
@@ -22,7 +23,6 @@ cursor.close()
 conexion.close()
 
 #Esta es la forma basica para poder conectarnos a la base de datos.
-
 
 
 
