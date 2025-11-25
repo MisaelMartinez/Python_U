@@ -14,7 +14,7 @@ NumeroPar = Annotated[int, AfterValidator(par)] #After es un tipo de validator d
 #Tiene 4 tipos
 #After: Corre despues de las validacciones de pydantic
 #Before:Corre antes de las validaciones de pydantic. Si viene como str en un int, truena el programa.
-#Plain: Similar a before, termina al retornar el valor.
+#Plain: Similar a before, termina al retornar el vahlor.
 #Wrap: Flexibles, antes o despues de las validaciones de pydantic.
 
 class Model1(BaseModel):
@@ -33,4 +33,5 @@ print(ejemplo2)
 ejemplo3: Model3 = Model3(lista_pares=[2,4,6])
 
 #Este programa debe de tener activado el entorno virtual e instalado pydantic 
+#python -m venv venv
 
