@@ -9,7 +9,9 @@ class UserModel(BaseModel):
     @model_validator(mode="after")
     def check_passwords(self):
         if self.password != self.password_repeat:
-            raise ValueError("Objeto incorrecto, passwords no coinciden/n")
+            raise ValueError("Objeto incorrecto, passwords no coinciden")
         return self 
+
+
 
 usuario1: UserModel = UserModel(username="eduardo", password="1234", password_repeat="12345") 

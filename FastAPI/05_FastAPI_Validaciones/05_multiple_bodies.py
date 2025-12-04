@@ -10,7 +10,7 @@ class Item(BaseModel):
     price: float
 
 class User(BaseModel):
-    username: str[str, Field(min_length=5)]
+    username: Annotated[str, Field(min_length=5)]
     full_name:str|None=None
 
 @app.put("/items/{item_id}")
